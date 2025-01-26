@@ -54,26 +54,18 @@ https://drive.google.com/drive/folders/1t-2by58Y5gMHCGTNX5W1lJiUFU27IXvg?usp=dri
 
 ### Home Page
 - Displays event cards with details like name, venue, and date. Hovering over the cards reveals additional information and a registration link.
-![Home Page](screenshots/home-page.png)
-
 ---
 
 ### Add Event Page
 - Contains a prominent "Add Event" button, which opens a form to input event details like name, description, date, time, venue, poster, and registration link.
-![Add Event Page](screenshots/add-event-page.png)
-
 ---
 
 ### Explore Page
 - Allows users to explore events from other colleges, with filters for state, district, and college.
-![Explore Page](screenshots/explore-page.png)
-
 ---
 
 ### Profile Page
 - Lets users edit profile details, view saved events, registered events, and set reminders.
-![Profile Page](screenshots/profile-page.png)
-
 ---
 
 ## 🚀 Future Enhancements
