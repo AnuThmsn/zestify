@@ -49,7 +49,8 @@ The **College Event Tracker** is a user-friendly web application designed to sim
 
 ![Screenshot 2025-01-26 080206](https://github.com/user-attachments/assets/c1a9094a-c678-4245-9266-e012cea883db)
 
-
+### Video Demo
+https://drive.google.com/drive/folders/1t-2by58Y5gMHCGTNX5W1lJiUFU27IXvg?usp=drive_link
 
 ### Home Page
 - Displays event cards with details like name, venue, and date. Hovering over the cards reveals additional information and a registration link.
