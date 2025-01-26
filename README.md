@@ -35,6 +35,18 @@ The **College Event Tracker** is a user-friendly web application designed to sim
 
 ![image](https://github.com/user-attachments/assets/63c68ee9-90c4-4adc-bfd8-7d53002e7b2e)
 ![Screenshot 2025-01-26 075928](https://github.com/user-attachments/assets/3fea3c81-0425-40ff-b120-177d1d715e0b)
+![Screenshot 2025-01-26 080035](https://github.com/user-attachments/assets/90231619-77b7-485b-b2b1-998f03af25f4)
+
+![Screenshot 2025-01-26 080102](https://github.com/user-attachments/assets/050c469f-5b54-4251-8633-134ca81c20fb)
+
+![Screenshot 2025-01-26 080114](https://github.com/user-attachments/assets/4ebe1ae6-2451-41c2-8b8a-9ec3fd8114a2)
+
+![Screenshot 2025-01-26 080129](https://github.com/user-attachments/assets/07f82678-c997-45fd-a320-25f36b879987)
+
+![Screenshot 2025-01-26 080142](https://github.com/user-attachments/assets/e2dfcfdf-2798-4539-8639-9073aff776ca)
+
+![Screenshot 2025-01-26 080152](https://github.com/user-attachments/assets/a5621728-3fed-4e90-863b-e9e320d44fd8)
+
 ![Screenshot 2025-01-26 080206](https://github.com/user-attachments/assets/c1a9094a-c678-4245-9266-e012cea883db)
 
 
