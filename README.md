@@ -34,6 +34,9 @@ The **College Event Tracker** is a user-friendly web application designed to sim
 ## 📸 Screenshots
 
 ![image](https://github.com/user-attachments/assets/63c68ee9-90c4-4adc-bfd8-7d53002e7b2e)
+![Screenshot 2025-01-26 075928](https://github.com/user-attachments/assets/3fea3c81-0425-40ff-b120-177d1d715e0b)
+![Screenshot 2025-01-26 080206](https://github.com/user-attachments/assets/c1a9094a-c678-4245-9266-e012cea883db)
+
 
 
 ### Home Page
