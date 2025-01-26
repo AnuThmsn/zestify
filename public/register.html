@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Register</h1>
+        </header>
+
+        <form action="/register" method="POST"><form action="/register" method="POST"></form>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+                <label for="college">Select College</label>
+                <div id="college-input-container">
+                    <input type="text" id="college-input" name="college" placeholder="Type your college" onfocus="showDropdown()" oninput="filterOptions()" autocomplete="off" required>
+                </div>
+                <select id="college-dropdown" size="5" onclick="selectOption(event)">
+                    <option value="TKMCE,Kollam">TKMCE,Kollam</option>
+                    <option value="CET">CET</option>
+                    <option value="GEC, Thrissur">GEC, Thrissur</option>
+                    <option value="GEC, Kannur">GEC, Kannur</option>
+                    <option value="College E">College E</option>
+                </select>
+            </div>
+            <div class="form-actions">
+                <button type="submit">REGISTER</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function showDropdown() {
+            document.getElementById('college-dropdown').style.display = 'block';
+        }
+
+        function filterOptions() {
+            const input = document.getElementById('college-input').value.toLowerCase();
+            const options = document.querySelectorAll('#college-dropdown option');
+
+            options.forEach(option => {
+                if (option.value.toLowerCase().includes(input)) {
+                    option.style.display = 'block';
+                } else {
+                    option.style.display = 'none';
+                }
+            });
+        }
+
+        function selectOption(event) {
+            const selectedValue = event.target.value;
+            document.getElementById('college-input').value = selectedValue;
+            document.getElementById('college-dropdown').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

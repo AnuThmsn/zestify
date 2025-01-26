@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Event Details</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter event name" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="venue">Venue</label>
+                <input type="text" id="venue" name="venue" placeholder="Enter event venue" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" placeholder="Enter event description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="poster">Add Poster</label>
+                <input type="file" id="poster" name="poster" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label for="video">Add Video</label>
+                <input type="file" id="video" name="video" accept="video/*">
+            </div>
+            <button type="submit">Add Event</button>
+        </form>
+    </div>
+</body>
+</html>
